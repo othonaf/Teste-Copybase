@@ -6,7 +6,7 @@ const cors = require("cors");
 async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     app.use(cors({
-        origin: 'https://copybase-mtxc5ygd3-othons-projects.vercel.app/',
+        origin: 'http://localhost:3000',
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
         allowedHeaders: '*',
     }));

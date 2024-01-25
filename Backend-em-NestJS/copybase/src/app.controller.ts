@@ -40,6 +40,7 @@ export class AppController {
 
         let rows = XLSX.utils.sheet_to_json(worksheet) as any[];
 
+        // Código para Transformar o formato das Datas recebidas:
         rows = rows.map((row: any) => {
           const newRow = { ...row };
           [
