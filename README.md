@@ -3,4 +3,4 @@ Arquivos contendo uma aplicação para Upload de arquivo .xlsx para criação de
 
 Para fazê-lo rodar, basta clonar e executar dentro do diretório "Copybase" o comando "npm run start". 
 
-Está configurado para a porta '3003' do localhost conforme a linha 9 do arquivo 'main.ts'.
+Está configurado para a porta '3003' do localhost conforme a linha 14 do arquivo 'main.ts'.
