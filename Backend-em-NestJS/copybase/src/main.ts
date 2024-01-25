@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.use(
     cors({
-      origin: 'https://copybase-othons-projects.vercel.app', //'http://localhost:3000'
+      origin: 'https://copybase-othons-projects.vercel.app/', //'http://localhost:3000'
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
       allowedHeaders: '*',
     }),
